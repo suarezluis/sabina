@@ -1,3 +1,8 @@
+.center{
+  text-align: center;
+  margin: auto;
+}
+
 .logoTitle{
   width: 30%;
   margin-left: 10px;
@@ -16,6 +21,16 @@
   font-size: 30px;
   /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
   background-color: rgba(0, 0, 0, 0.226);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.aboutIntro2{
+  
+  text-align: justify;
+  font-size: 30px;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  
   padding: 15px;
   border-radius: 20px;
 }
@@ -44,4 +59,59 @@
 
 .socialMediaLogo2{
 width: 10%;
+}
+
+.natanLeft{
+  text-align: center;
+}
+
+.natanPicture{
+  border-radius: 20px;
+}
+
+.natanGallery{
+  text-align: center;
+  
+}
+
+.natanWork{
+  height: 320px;
+  border-radius: 20px;
+  margin: 20px;
+  
+}
+
+.portfolioMenu{
+  width: 100%;
+}
+
+.portfolioMenu .category{
+  background-color: rgb(139, 139, 139);
+  color:white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+.portfolioMenu .category:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
+.gallery{
+  
+  width: 100%;
+}
+
+.gallery img{
+  display: inline-block !important;
+  margin: 10px auto;
+}
+.galleryItem{
+  
+  height: 400px;
+  width: auto;
+  margin: 10px;
+  border-radius: 20px;
 }
