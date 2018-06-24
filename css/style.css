@@ -1,12 +1,11 @@
-.center{
+.center {
   text-align: center;
   margin: auto;
 }
 
-.logoTitle{
+.logoTitle {
   width: 30%;
   margin-left: 10px;
-  
 }
 
 .parallax-container {
@@ -15,8 +14,8 @@
   background-size: 100%;
 }
 
-.aboutIntro{
-  color:white;
+.aboutIntro {
+  color: white;
   text-align: justify;
   font-size: 30px;
   /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
@@ -25,91 +24,85 @@
   border-radius: 20px;
 }
 
-.aboutIntro2{
-  
+.aboutIntro2 {
   text-align: justify;
   font-size: 30px;
   /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-  
+
   padding: 15px;
   border-radius: 20px;
 }
 
-.logoDisplay{
+.logoDisplay {
   text-align: center;
 }
 
-.logo{
+.logo {
   width: 40%;
   margin: 20px auto;
 }
 
-.socialMedia{
+.socialMedia {
   text-align: center;
 }
-.socialMediaLogo{
+.socialMediaLogo {
   width: 20%;
-  
 }
 
-.sabinaAboutPicture{
+.sabinaAboutPicture {
   width: 100%;
   border-radius: 20px;
 }
 
-.socialMediaLogo2{
-width: 10%;
+.socialMediaLogo2 {
+  width: 10%;
 }
 
-.natanLeft{
+.natanLeft {
   text-align: center;
 }
 
-.natanPicture{
+.natanPicture {
   border-radius: 20px;
 }
 
-.natanGallery{
+.natanGallery {
   text-align: center;
-  
 }
 
-.natanWork{
+.natanWork {
   height: 320px;
   border-radius: 20px;
   margin: 20px;
-  
 }
 
-.portfolioMenu{
+.portfolioMenu {
   width: 100%;
 }
 
-.portfolioMenu .category{
+.portfolioMenu .category {
   background-color: rgb(139, 139, 139);
-  color:white;
+  color: white;
   padding: 10px;
   border-radius: 10px;
   margin: 10px;
   transition: all 1s;
 }
 
-.portfolioMenu .category:hover{
+.portfolioMenu .category:hover {
   background-color: black;
   cursor: pointer;
 }
 
-.gallery{
-  
+.gallery {
   width: 100%;
 }
 
-.gallery img{
+.gallery img {
   display: inline-block !important;
   margin: 10px auto;
 }
-.galleryItem{
-  
+.galleryItem {
   height: 400px;
   width: auto;
   margin: 10px;
