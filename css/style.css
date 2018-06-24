@@ -1,122 +1,47 @@
-body{
-  margin-top:70px;
-  font-size:16px;
-}
-
-h1,h2,h3,h4,h5,h6{
-  font-family:Poppins;
-}
-
-p{
-  font-family:Roboto;
-}
-
-.navbar-default{
-  background:#fff;
-  border:0;
-  font-family:Poppins;
-}
-
-.navbar-brand{
-  font-size:20px;
-  color:#000 !important;
-  font-weight:bold;
-}
-
-#showcase h1{
-  font-size:50px;
-  margin-bottom:20px;
-}
-
-#showcase img{
-  width:90%;
-  margin-left:60px;
-}
-
-#showcase {
-  margin-top:90px;
-}
-
-#testimonial{
-  background:#f1f1f1;
-  padding: 50px 0 30px 0;
-  text-align:center;
-  margin-top:40px;
-}
-
-#testimonial p{
-  font-size:32px;
-  font-family: 'Josefin Sans';
-  color:#000;
-}
-
-#testimonial p.customer{
-  font-size:20px;
-  color:#666;
-}
-
-#info1 .info-right{
-  margin-top:90px;
-}
-
-#info2{
-  margin:20px 0 60px 0;
-}
-
-#contact{
-  background:url(../img/image3.png);
-  padding:40px;
-  color:#fff;
-  border-top:#333 7px solid;
-  border-bottom:#333 7px solid;
-}
-
-footer{
-  padding:30px;
-}
-
-.circle{
-  width: 100%;
-  margin-top: 10px!important;
-  
-}
-
-.aboutMe{
-  margin-top: 0px !important;
-  
-}
-.socialMediaIcons{
+.logoTitle{
   width: 30%;
-  margin: 1%
-}
-
-.luis{
-  float: none;
-  margin: 0 auto;
+  margin-left: 10px;
   
 }
 
-.madeBy{
-  margin-top: -50px;
-  margin-right: 20px;
-  text-align: right;
-}
-img{
-  margin: auto !important;
+.parallax-container {
+  height: 900px;
+  background-position: 0% 0px !important;
+  background-size: 100%;
 }
 
-.logo, .dancing{
-  display: inline-block;
-  float:none !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  vertical-align: top !important;
+.aboutIntro{
+  color:white;
+  text-align: justify;
+  font-size: 30px;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  background-color: rgba(0, 0, 0, 0.226);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.logoDisplay{
+  text-align: center;
+}
+
+.logo{
+  width: 40%;
+  margin: 20px auto;
+}
+
+.socialMedia{
+  text-align: center;
+}
+.socialMediaLogo{
+  width: 20%;
   
 }
 
-a:hover{
-  text-decoration: none;
+.sabinaAboutPicture{
+  width: 100%;
+  border-radius: 20px;
 }
-a:focus{
-  text-decoration: none;
+
+.socialMediaLogo2{
+width: 10%;
 }
