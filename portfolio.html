@@ -5,177 +5,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Compiled and minified CSS -->
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- materialize css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-
-
+    <!-- materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- styles.css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Favicon link -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
     <title>Sabina Diamond</title>
 </head>
 
 <body>
-    <!-- ------------------------------ Nav Bar --------------------------------------------- -->
+
+    <!-- Navigation Bar -->
     <nav>
-        <div class="nav-wrapper">
-            <img class="logoTitle" src="/img/logoTitle.png" alt="">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="sass.html">Home</a>
-                </li>
-                <li>
-                    <a href="\about.html">About</a>
-                </li>
-                <li>
-                    <a href="collapsible.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="mobile.html">Contact</a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Sabina Diamond</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
         <li>
-            <a href="sass.html">Home</a>
+            <a href="index.html">Home</a>
         </li>
         <li>
-            <a href="badges.html">About</a>
+            <a href="about.html">About</a>
         </li>
         <li>
-            <a href="collapsible.html">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
         </li>
-        <li>
-            <a href="mobile.html">Contact</a>
-        </li>
+
     </ul>
-
-    <!-- ------------------------------ End of Nav Bar --------------------------------------------- -->
-    <br>
-    <br>
-    <!-- ------------------------------ Parallax --------------------------------------------- -->
-
-    <div class="portfolioMenu">
-        <span class="category all">All</span>
-        <span class="category paintings">Paintings</span>
-        <span class="category costumes">Costumes</span>
-        <span class="category photoStyling">Photo Styling</span>
-        <span class="category austinScotish">Austin Scottish Rite</span>
+    <!-- end of navigation -->
+    <div class="spacer">
+        <br>
+        <br>
     </div>
-    <br>
-    <div class="row gallery">
-        <img class="col s2 materialboxed galleryItem painting" width="650" src="img/art1.jpg">
-        <img class="col s2 materialboxed galleryItem painting" width="650" src="img/art2.jpg">
-        <img class="col s2 materialboxed galleryItem painting" width="650" src="img/art3.jpg">
-        <img class="col s2 materialboxed galleryItem painting" width="650" src="img/art4.jpg">
-        <img class="col s2 materialboxed galleryItem painting" width="650" src="img/art5.jpg">
-
-        <img class="col s2 materialboxed galleryItem costume" width="650" src="img/costumes1.JPG">
-        <img class="col s2 materialboxed galleryItem costume" width="650" src="img/costumes2.JPG">
-        <img class="col s2 materialboxed galleryItem costume" width="650" src="img/costumes3.JPG">
-        <img class="col s2 materialboxed galleryItem costume" width="650" src="img/costumes4.JPG">
-        <img class="col s2 materialboxed galleryItem costume" width="650" src="img/costumes5.JPG">
-        <img class="col s2 materialboxed galleryItem costume" width="650" src="img/costumes6.JPG">
-        <img class="col s2 materialboxed galleryItem costume" width="650" src="img/costumes7.JPG">
-
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling1.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling2.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling3.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling4.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling5.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling6.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling7.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling8.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling9.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling10.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling11.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling12.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling13.jpg">
-        <img class="col s2 materialboxed galleryItem styling" width="650" src="img/styling14.jpg">
-
-        <img class="col s2 materialboxed galleryItem scottish" width="650" src="img/scottish1.JPG">
-        <img class="col s2 materialboxed galleryItem scottish" width="650" src="img/scottish2.JPG">
-        <img class="col s2 materialboxed galleryItem scottish" width="650" src="img/scottish3.JPG">
-        <img class="col s2 materialboxed galleryItem scottish" width="650" src="img/scottish4.JPG">
-        <img class="col s2 materialboxed galleryItem scottish" width="650" src="img/scottish5.JPG">
+    <div class="catMenu">
+        <button class="button btn-all">All</button>
+        <button class="button btn-painting">Painting</button>
+        <button class="button btn-styling">Photo Styling</button>
+        <button class="button btn-costumes">Costumes</button>
     </div>
+    <div class="container">
+        <div class="row gallery">
+            <!-- <div class="item">
+            
+
+                <img src="assets/images/portfolio/thumbnails/art1.jpg" alt="" class="col s6 m3 modal-trigger thumbnail " href="#modal1">
+            
+                <div id="modal1" class="modal">
+                    <br>
+                    <img src="assets/images/portfolio/full/art1.jpg" alt="" class="fullSize">
+
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat right">CLOSE</a>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+    <div class="spacer">
+
+    </div>
+    <!-- Social media -->
+    <div class="socialMedia">
+        <a href="">
+            <img src="assets/images/facebook.png" alt="">
+        </a>
+        <a href="">
+            <img src="assets/images/instagram.png" alt="">
+        </a>
+        <a href="">
+            <img src="assets/images/twitter.png" alt="">
+        </a>
+    </div>
+    <!-- End of social Media -->
+    </div>
+    <!-- Footer -->
     <footer class="page-footer">
+
+
         <div class="container">
-            <div class="socialMedia">
-                <a href="">
-                    <img class="socialMediaLogo" src="img/facebook.png" alt="">
-                </a>
-                <a href="">
-                    <img class="socialMediaLogo" src="img/instagram.png" alt="">
-                </a>
-                <a href="">
-                    <img class="socialMediaLogo" src="img/twitter.png" alt="">
-                </a>
-            </div>
+            <span>© 2018 Copyright</span>
+
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2014 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
+
     </footer>
-
-
-
-    <!-- Compiled and minified JavaScript -->
+    <div id="aqui"></div>
+    <!-- End of Footer -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script src="js/init.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script>
-        $(".all").on("click", function () {
-            $(".galleryItem").css("width", "auto");
-
-        })
-
-        $(".paintings").on("click", function () {
-            console.log("click")
-            $(".painting").css("width", "auto");
-            $(".costume").css("width", "0");
-            $(".styling").css("width", "0");
-            $(".scottish").css("width", "0");
-
-        })
-
-        $(".costumes").on("click", function () {
-            console.log("click")
-            $(".painting").css("width", "0");
-            $(".costume").css("width", "auto");
-            $(".styling").css("width", "0");
-            $(".scottish").css("width", "0");
-
-        })
-
-        $(".photoStyling").on("click", function () {
-            console.log("click")
-            $(".painting").css("width", "0");
-            $(".costume").css("width", "0");
-            $(".styling").css("width", "auto");
-            $(".scottish").css("width", "0");
-
-        })
-
-        $(".austinScotish").on("click", function () {
-            console.log("click")
-            $(".painting").css("width", "0px");
-            $(".costume").css("width", "0");
-            $(".styling").css("width", "0");
-            $(".scottish").css("width", "auto");
-
-        })
-
-    </script>
+    <script src="assets/javascript/main.js"></script>
+    <script src="assets/javascript/init.js"></script>
+    <script src="assets/javascript/portfolio.js"></script>
 </body>
 
 </html>

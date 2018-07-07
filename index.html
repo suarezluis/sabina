@@ -2,143 +2,147 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <link rel="stylesheet" href="css/style.css">
-
-
-
-  <title>Sabina Diamond</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- styles.css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Favicon link -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+    <title>Sabina Diamond</title>
 </head>
 
 <body>
-  <!-- ------------------------------ Nav Bar --------------------------------------------- -->
-  <nav>
-    <div class="nav-wrapper">
-      <img class="logoTitle" src="/img/logoTitle.png" alt="">
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-        <i class="material-icons">menu</i>
-      </a>
-      <ul class="right hide-on-med-and-down">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Sabina Diamond</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
         <li>
-          <a href="sass.html">Home</a>
+            <a href="index.html">Home</a>
         </li>
         <li>
-          <a href="\about.html">About</a>
+            <a href="about.html">About</a>
         </li>
         <li>
-          <a href="collapsible.html">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
         </li>
-        <li>
-          <a href="mobile.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <ul class="sidenav" id="mobile-demo">
-    <li>
-      <a href="sass.html">Home</a>
-    </li>
-    <li>
-      <a href="badges.html">About</a>
-    </li>
-    <li>
-      <a href="collapsible.html">Portfolio</a>
-    </li>
-    <li>
-      <a href="mobile.html">Contact</a>
-    </li>
-  </ul>
-
-  <!-- ------------------------------ End of Nav Bar --------------------------------------------- -->
-  <br>
-  <br>
-  <!-- ------------------------------ Parallax --------------------------------------------- -->
-
-  <div class="parallax-container center">
-    <div class="parallax">
-      <img src="img/parallax.jpg">
-    </div>
-    <div class="row">
-      <div class="col s6">
-        <h1>About</h1>
-        <p class="aboutIntro">I was born and raised on the Caspian Sea in a small town called Baku in Azerbaijan. Growing up behind the theater
-          stage with a designer mom, whom I admire and love dearly, taught me how to love and appreciate art. Art took me
-          through a lot of dark days, it is my way of meditating and expressing myself. Using elaborate patterning and detail,
-          I create embellished costumes with beading and handwork. I also paint expressionistically with an idea or subject
-          in my mind. I have traveled and lived in Moscow, Singapore, Indonesia, Thailand, Istanbul, and Cambodia; now living
-          between two of my favorite cities Austin and New York.</p>
-      </div>
-    </div>
-  </div>
-  <!-- ------------------------------ End of Parallax --------------------------------------------- -->
-
-  <div class="row valign-wrapper">
-
-    <div class="col s6">
-      <div class="container">
-        <form id="contact" action="" method="post">
-
-          <h4>Contact me</h4>
-          <fieldset>
-            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-          </fieldset>
-
-          <fieldset>
-            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-        </form>
-
-
-      </div>
+    </ul>
+    <!-- end of navigation -->
+    <div class="spacer">
 
     </div>
-    <div class="col s6 logoDisplay">
-      <img class="logo" src="img/logo.png" alt="">
-    </div>
-  </div>
+    <!-- Parallax -->
 
-  <footer class="page-footer">
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/images/parallax.jpg">
+        </div>
+        <div class="intro">
+            <p> I was born and raised on the Caspian Sea in a small town called Baku in Azerbaijan. Growing up behind the theater
+                stage...</p>
+            <span class="readMore">Read More</span>
+        </div>
+
+    </div>
+
+    <!-- End of parallax -->
+    <div class="spacer">
+        <br>
+    </div>
     <div class="container">
-      <div class="socialMedia">
-        <a href="">
-          <img class="socialMediaLogo" src="img/facebook.png" alt="">
-        </a>
-        <a href="">
-          <img class="socialMediaLogo" src="img/instagram.png" alt="">
-        </a>
-        <a href="">
-          <img class="socialMediaLogo" src="img/twitter.png" alt="">
-        </a>
-      </div>
+        <!-- Contact and logo -->
+        <div class="row">
+            <div class="col s12 m6 l6 contactForm">
+                <form class="form">
+                    <h5>You can always contact me with any questions, or suggestions for a collaboration projects.</h5>
+                    <p type="Name:">
+                        <input placeholder="Write your name here.."></input>
+                    </p>
+                    <p type="Email:">
+                        <input placeholder="Let us know how to contact you back.."></input>
+                    </p>
+                    <p type="Message:">
+                        <input placeholder="What would you like to tell us.."></input>
+                    </p>
+                    <button>Send Message</button>
+
+                </form>
+            </div>
+            <div class="col s12 m6 l6 logoIndex valign-wrapper">
+                <img src="assets/images/logoIndex.png" alt="">
+            </div>
+        </div>
+        <!-- End of Contact and Logo -->
+        <!-- Social media -->
+        <div class="socialMedia">
+            <a href="">
+                <img src="assets/images/facebook.png" alt="">
+            </a>
+            <a href="">
+                <img src="assets/images/instagram.png" alt="">
+            </a>
+            <a href="">
+                <img src="assets/images/twitter.png" alt="">
+            </a>
+        </div>
+        <!-- End of social Media -->
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer class="page-footer">
 
 
+        <div class="container">
+            <span>© 2018 Copyright</span>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script src="js/init.js"></script>
+        </div>
+
+    </footer>
+    <!-- End of Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="assets/javascript/main.js"></script>
+    <script src="assets/javascript/init.js"></script>
 </body>
 
 </html>
