@@ -9,7 +9,9 @@ footer {
   color: #a52a2a !important;
   font-weight: 700;
 }
-
+body{
+  font-family: Consolas, monaco, monospace;
+}
 .brand-logo {
   font-family: "Clicker Script", cursive;
 }
@@ -35,6 +37,12 @@ footer {
   margin: 0 auto;
 }
 
+.contactMe{
+  font-family: "Clicker Script", cursive;
+  font-size: 35px;
+  
+} 
+
 .logoIndex {
   text-align: center !important;
 }
@@ -47,8 +55,13 @@ footer {
   text-align: center;
 }
 
+.socialMedia img{
+  width: 100px;
+}
+
 footer {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .redish{
@@ -109,8 +122,13 @@ footer {
     padding: 10px; 
     border-radius: 10px;
     cursor: pointer;
-    width: 200px;
+    width: 150px;
     border: none;
+    color: #eed9c4;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
 }
 
 .button:focus{
