@@ -9,11 +9,10 @@ footer {
   color: #a52a2a !important;
   font-weight: 700;
 }
-body{
-  font-family: Consolas, monaco, monospace;
-}
+
 .brand-logo {
   font-family: "Clicker Script", cursive;
+  width: fit-content;
 }
 
 .parallax-container {
@@ -21,20 +20,31 @@ body{
 }
 
 .intro {
-  width: 40%;
+  width: 45%;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 20%;
   color: white;
   font-size: 50px;
   text-shadow: 1px 1px black;
 }
+.introSmall {
+  
+  margin: 10px;
+  
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px black;
+}
 
+.space{
+  margin-top: 10px;
+}
 .readMore {
   background-color: rgba(50, 50, 50, 0.5);
   border-radius: 20px;
-  padding: 0 15px;
+  padding: 5px 15px;
   font-size: 25px;
-  margin: 0 auto;
+  
 }
 
 .contactMe{
@@ -74,9 +84,19 @@ footer {
   margin-bottom: 0;
 }
 .aboutIntro2 {
-  margin-top: 0 !important;
+  
   text-align: justify;
-  line-height: 29px ;
+  line-height: 48px ;
+  font-size: 34px;
+
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.aboutIntro2small {
+  
+  text-align: justify;
+  line-height: 28px ;
   font-size: 24px;
 
   padding: 15px;
@@ -84,8 +104,19 @@ footer {
 }
 
 .sabinaAboutPicture {
+  width: 50%;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  
+}
+
+.sabinaAboutPictureWide {
   width: 100%;
   border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  
 }
 .natanLeft {
   text-align: center;
@@ -94,20 +125,28 @@ footer {
 .natanPicture {
   border-radius: 20px;
   width: 250px;
+  margin: 0 auto;
 }
 
 .natanGallery {
   text-align: center;
+  max-width: 100%;
+  
 }
 
 .natanWork {
+  max-width: 100%;
   height: 220px;
   border-radius: 20px;
-  margin: 20px;
+  margin: 10px auto;
 }
 
 .natanLink{
     text-align: center;
+}
+
+.row{
+  height: 100%;
 }
 
 /* --------------Portfolio Page-------------------- */
@@ -122,7 +161,7 @@ footer {
     padding: 10px; 
     border-radius: 10px;
     cursor: pointer;
-    width: 150px;
+    width: 138px;
     border: none;
     color: #eed9c4;
 }
@@ -168,3 +207,4 @@ footer {
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: #a52a2a;
 }
+

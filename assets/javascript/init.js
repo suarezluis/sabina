@@ -6,4 +6,5 @@
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.modal').modal();
+    $('.materialboxed').materialbox();
   });

@@ -180,7 +180,7 @@ for (let index = 0; index < jso.length; index++) {
             <br>
             <img src="assets/images/portfolio/full/${
               jso[index].file
-            }" alt="" class="fullSize">
+            }" alt="" class="fullSize materialboxed">
             <p class="imageInfo">Photo by: <a href="${jso[index].link}">${jso[index].photography}</a></p>
             <a href="#!" class="modal-close waves-effect waves-green btn-flat right">X</a>
         </div>
