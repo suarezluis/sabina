@@ -25,6 +25,9 @@ footer {
   height: 700px;
 }
 
+.fullWide{
+  width: 100%;
+}
 .intro {
   width: 45%;
   margin-left: 10%;
