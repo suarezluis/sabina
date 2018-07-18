@@ -9,7 +9,13 @@ footer {
   color: #a52a2a !important;
   font-weight: 700;
 }
-
+.sidenav{
+  background-color: #eed9c4;
+  
+}
+.sidenav li a{
+  color: #a52a2a;
+}
 .brand-logo {
   font-family: "Clicker Script", cursive;
   width: fit-content;
@@ -191,8 +197,13 @@ footer {
 
 .fullSize{
     max-width: 100%;
-    max-height: 68vh;
+    max-height: 64vh;
     margin: 0 auto;
+}
+
+.modal-close{
+  font-weight: bolder;
+  color: #a52a2a;
 }
 
 /* ----------------PlaceHolder---------------- */

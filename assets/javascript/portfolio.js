@@ -171,18 +171,19 @@ for (let index = 0; index < jso.length; index++) {
   $(".gallery").append(`
     <div class="item ${jso[index].category}">
         <!-- Modal Trigger -->
-        
+       
         <img src="assets/images/portfolio/thumbnails/${
           jso[index].thumbnail
         }" alt="" class="col s6 m3 modal-trigger thumbnail" href="#modal${index}">
         <!-- Modal Structure -->
         <div id="modal${index}" class="modal">
             <br>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat right">X</a>
             <img src="assets/images/portfolio/full/${
               jso[index].file
             }" alt="" class="fullSize materialboxed">
             <p class="imageInfo">Photo by: <a href="${jso[index].link}">${jso[index].photography}</a></p>
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat right">X</a>
+            
         </div>
     </div>
     `);
