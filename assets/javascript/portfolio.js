@@ -5,21 +5,21 @@ const jso = [
     thumbnail: "art12.jpg",
     file: "art12.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art11.jpg",
     file: "art11.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art10.jpg",
     file: "art10.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
 
@@ -27,7 +27,7 @@ const jso = [
     thumbnail: "art9.jpg",
     file: "art9.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
 
@@ -35,56 +35,56 @@ const jso = [
     thumbnail: "art8.jpg",
     file: "art8.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art7.jpg",
     file: "art7.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art6.jpg",
     file: "art6.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art5.jpg",
     file: "art5.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art4.jpg",
     file: "art4.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art3.jpg",
     file: "art3.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art2.jpg",
     file: "art2.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   {
     thumbnail: "art1.jpg",
     file: "art1.jpg",
     photography: "Sabina Diamond",
-    link: "http://www.sabina-diamond.com",
+    plink: "http://www.sabina-diamond.com",
     category: "painting"
   },
   //   Styling
@@ -92,21 +92,27 @@ const jso = [
     thumbnail: "styling1.jpg",
     file: "styling1.jpg",
     photography: "Pope-Art",
-    link: "http://www.pope-art.tumblr.com",
+    plink: "http://www.pope-art.tumblr.com",
+    makeup: "Mirabai Wagne",
+    mlink: "http://www.mirabaidesign.com/",
     category: "styling"
   },
   {
     thumbnail: "styling2.jpg",
     file: "styling2.jpg",
     photography: "SouthBound",
-    link: "",
+    plink: "",
     category: "styling"
   },
   {
     thumbnail: "styling3.jpg",
     file: "styling3.jpg",
     photography: "Steve Coulter",
-    link: "http://www.photographercentralmail.com/photographer/8817618401962/steve-coulter-photography-round-rock-texas",
+    plink: "http://www.photographercentralmail.com/photographer/8817618401962/steve-coulter-photography-round-rock-texas",
+    makeup: "Mirabai Wagne",
+    mlink: "http://www.mirabaidesign.com/",
+    jewelry: "Adrian Nichole Amiro",
+    jlink: "https://mystyledaily.wordpress.com/2013/01/23/dramatic-and-unique-jewelry-by-adrian-amiro/",
     category: "styling"
   },
   {
@@ -120,107 +126,121 @@ const jso = [
     thumbnail: "styling5.jpg",
     file: "styling5.jpg",
     photography: "Steve Coulter",
-    link: "http://www.photographercentralmail.com/photographer/8817618401962/steve-coulter-photography-round-rock-texas",
+    plink: "http://www.photographercentralmail.com/photographer/8817618401962/steve-coulter-photography-round-rock-texas",
+    makeup: "Mirabai Wagne",
+    mlink: "http://www.mirabaidesign.com/",
+    jewelry: "Adrian Nichole Amiro",
+    jlink: "https://mystyledaily.wordpress.com/2013/01/23/dramatic-and-unique-jewelry-by-adrian-amiro/",
     category: "styling"
   },
   {
     thumbnail: "styling6.jpg",
     file: "styling6.jpg",
     photography: "Steve Coulter",
-    link: "http://www.photographercentralmail.com/photographer/8817618401962/steve-coulter-photography-round-rock-texas",
+    plink: "http://www.photographercentralmail.com/photographer/8817618401962/steve-coulter-photography-round-rock-texas",
+    makeup: "Mirabai Wagne",
+    mplink: "http://www.mirabaidesign.com/",
+    jewelry: "Adrian Nichole Amiro",
+    jlink: "https://mystyledaily.wordpress.com/2013/01/23/dramatic-and-unique-jewelry-by-adrian-amiro/",
     category: "styling"
   },
   {
     thumbnail: "styling7.jpg",
     file: "styling7.jpg",
     photography: "Sanan Aliyev",
-    link: "https://www.instagram.com/sananaliyevstudio/",
+    plink: "https://www.instagram.com/sananaliyevstudio/",
     category: "styling"
   },
   {
     thumbnail: "styling8.jpg",
     file: "styling8.jpg",
     photography: "Sanan Aliyev",
-    link: "https://www.instagram.com/sananaliyevstudio/",
+    plink: "https://www.instagram.com/sananaliyevstudio/",
     category: "styling"
   },
   {
     thumbnail: "styling9.jpg",
     file: "styling9.jpg",
     photography: "Sanan Aliyev",
-    link: "https://www.instagram.com/sananaliyevstudio/",
+    plink: "https://www.instagram.com/sananaliyevstudio/",
     category: "styling"
   },
   {
     thumbnail: "styling10.jpg",
     file: "styling10.jpg",
     photography: "Sanan Aliyev",
-    link: "https://www.instagram.com/sananaliyevstudio/",
+    plink: "https://www.instagram.com/sananaliyevstudio/",
     category: "styling"
   },
   {
     thumbnail: "styling11.jpg",
     file: "styling11.jpg",
     photography: "Sanan Aliyev",
-    link: "https://www.instagram.com/sananaliyevstudio/",
+    plink: "https://www.instagram.com/sananaliyevstudio/",
     category: "styling"
   },
   {
     thumbnail: "styling12.jpg",
     file: "styling12.jpg",
     photography: "Sanan Aliyev",
-    link: "https://www.instagram.com/sananaliyevstudio/",
+    plink: "https://www.instagram.com/sananaliyevstudio/",
     category: "styling"
   },
   // Costumes
   {
     thumbnail: "costumes1.jpg",
     file: "costumes1.jpg",
-    photography: "",
-    link: "",
+    play: "A Midsummer night's dream play",
+    playlink: "http://scottishritetheater.org/",
     category: "costumes"
   },
   {
     thumbnail: "costumes2.jpg",
     file: "costumes2.jpg",
-    photography: "",
-    link: "",
+    play: "A Midsummer night's dream play",
+    playlink: "http://scottishritetheater.org/",
     category: "costumes"
   }, {
     thumbnail: "costumes3.jpg",
     file: "costumes3.jpg",
     photography: "Vannesa",
-    link: "http://photographybyvanessa.com/",
+    play: "The Town Musicians of Mumbai",
+    playlink: "http://scottishritetheater.org/show/musicians-of-mumbai/",
+    plink: "http://photographybyvanessa.com/",
     category: "costumes"
   }, {
     thumbnail: "costumes4.jpg",
     file: "costumes4.jpg",
+    play: "Just a Minute! A Día de los Muertos Play",
+    playlink: "http://scottishritetheater.org/",
     photography: "Vannesa",
-    link: "http://photographybyvanessa.com/",
+    plink: "http://photographybyvanessa.com/",
     category: "costumes"
   }, {
     thumbnail: "costumes5.jpg",
     file: "costumes5.jpg",
-    photography: "",
-    link: "",
+    play: "A Midsummer night's dream play",
+    playlink: "http://scottishritetheater.org/",
     category: "costumes"
   }, {
     thumbnail: "costumes6.jpg",
     file: "costumes6.jpg",
-    photography: "",
-    link: "",
+    play: "A Midsummer night's dream play",
+    playlink: "http://scottishritetheater.org/",
     category: "costumes"
   }, {
     thumbnail: "costumes7.jpg",
     file: "costumes7.jpg",
+    play: "Just a Minute! A Día de los Muertos Play",
+    playlink: "http://scottishritetheater.org/",
     photography: "Vannesa",
-    link: "http://photographybyvanessa.com/",
+    plink: "http://photographybyvanessa.com/",
     category: "costumes"
   },
 ];
 
 for (let index = 0; index < jso.length; index++) {
-  $(".gallery").append(`
+  var inject = `
     <div class="item ${jso[index].category}">
         <!-- Modal Trigger -->
        
@@ -234,11 +254,34 @@ for (let index = 0; index < jso.length; index++) {
             <img src="assets/images/portfolio/full/${
     jso[index].file
     }" alt="" class="fullSize materialboxed">
-            <p class="imageInfo">Photo by: <a href="${jso[index].link}">${jso[index].photography}</a></p>
-            
+            `;
+
+            if (jso[index].play) {
+              inject += `
+              <p class="imageInfo">Play: <a href="${jso[index].playlink}">${jso[index].play}</a></p>
+                        `;
+            };
+  if (jso[index].photography) {
+    inject += `
+    <p class="imageInfo">Photo by: <a href="${jso[index].plink}">${jso[index].photography}</a></p>
+              `;
+  };
+  if (jso[index].makeup) {
+    inject += `
+    <p class="imageInfo">Makeup & Hair: <a href="${jso[index].mlink}">${jso[index].makeup}</a></p>  
+    `;
+  };
+  if (jso[index].jewelry) {
+    inject += `
+    <p class="imageInfo">Jewelry: <a href="${jso[index].jlink}">${jso[index].jewelry}</a></p>  
+    `;
+  };
+  inject += `            
         </div>
     </div>
-    `);
+    `;
+
+  $(".gallery").append(inject);
 }
 
 $(".btn-all").on("click", function () {
