@@ -72,6 +72,14 @@ footer {
   width: 50%;
   margin: 50px auto;
 }
+
+.thankyou{
+  display: inline-block;
+  font-size: 300%;
+  color: #c92626;
+
+}
+
 .socialMedia {
   text-align: center;
 }
